@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             EnjoyGhanaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                   NavScreen()
+                   NavScreen(7)
                 }
             }
         }
