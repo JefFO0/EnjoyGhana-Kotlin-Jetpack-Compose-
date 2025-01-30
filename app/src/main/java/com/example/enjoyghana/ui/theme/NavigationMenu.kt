@@ -1,5 +1,7 @@
 package com.example.enjoyghana.ui.theme
 
+import android.content.ContentProvider
+import android.content.ContentResolver
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -91,6 +93,8 @@ fun NavigationMenu(
 }
 
 
+
+
     @Composable
     fun NavIcons(
         currentPageIndex: Int,
@@ -129,6 +133,8 @@ fun NavigationMenu(
 
             )
         }
+
+
     }
 
 
